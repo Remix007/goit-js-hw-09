@@ -1,0 +1,30 @@
+p {
+  margin-left: 50px;
+}
+
+input {
+  margin-left: 50px;
+}
+
+.timer {
+  margin-left: 50px;
+  display: flex;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.field:not(:last-child) {
+  margin-right: 15px;
+}
+
+.value {
+  font-size: 30px;
+  font-weight: 700;
+  color: #4caf50;
+}
+.label {
+  color: brown;
+  font-weight: 500;
+}
